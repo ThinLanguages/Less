@@ -1,5 +1,7 @@
 package org.uqbar.thin.less.modules
 
+import org.uqbar.thin.more.views.source.GrammarSugar
+
 trait LambdaCalculus extends Expressions {
 	case class Lambda(argument: Variable, body: Expression) extends Expression
 	case class Application(left: Expression, right: Expression) extends Expression
