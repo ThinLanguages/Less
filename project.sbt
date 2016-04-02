@@ -11,7 +11,7 @@ lazy val cacao = FDProject(
 	"org.uqbar" %% "identity-map" % "latest.integration",
 	"org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.4",
 	"org.scala-lang" % "scala-reflect" % "2.11.7",
-	"org.uqbar" %% "more" % "latest.integration",
+	"org.uqbar" %% "more" % "0.0.1-SNAPSHOT",
 	"org.scalatest" %% "scalatest" % "2.2.5" % "test",
 	"org.uqbar" %% "parser-test" % "latest.integration" % "test"
 )
